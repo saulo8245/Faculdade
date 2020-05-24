@@ -10,8 +10,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         
         <a class="navbar-brand" href="#">MJ</a>
@@ -40,67 +38,68 @@
           </li>
         </ul>
       </nav>
-      <h2>Cadastro</h2>
-      <form>
-        <div class="row">
-          <div class="col">
-            <label for="Nome" class="mr-sm-2">Nome:</label>
-            <input type="text" class="form-control" id="Nome" placeholder="Digite seu nome" name="Nome">
-          </div>
-          <div class="col">
-            <label for="Nome" class="mr-sm-2">Sobrenome:</label>
-            <input type="text" class="form-control" placeholder="Digite seu nome" name="Sobrenome">
-          </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col">
-              <label for="Data" class="mr-sm-2">Data nascimento:</label>
-              <input type="date" class="form-control" id="Data" placeholder="Digite da de nascimento" name="Data">
-            </div>
-            <div class="col">
-                <div class="col">
-                    <label for="Sexo" class="mr-sm-2">Sexo:</label>
-                    <input type="text" class="form-control" id="Sexo" placeholder="Digite Seu Sexo/Genero" name="Sexo">
-                  </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <label for="Telefone" class="mr-sm-2">Telefone:</label>
-              <input type="tel" class="form-control" id="Telefone" placeholder="(XX)XXXX-XXXX" name="Telefone">
-            </div>
-            <div class="col">
-                <div class="col">
-                    <label for="Email" class="mr-sm-2">Email:</label>
-                    <input type="text" class="form-control" id="Email" placeholder="Digite Seu Email" name="Email">
-                  </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <label for="Endereço" class="mr-sm-2">Endereço:</label>
-              <input type="text" class="form-control" id="Endereço" placeholder="" name="Endereço">
-            </div>
-          </div>
-            <div class="row">
-                <div class="col">
-                  <label for="Numero" class="mr-sm-2">Numero:</label>
-                  <input type="number" class="form-control" id="Numero" placeholder="" name="Numero">
-                </div>
-                <div class="col">
-                    <div class="col">
-                        <label for="Estado" class="mr-sm-2">Estado:</label>
-                        <input type="text" class="form-control" id="Estado" placeholder="" name="Estado">
-                    </div>
-                    </div>
+    <div class="container">
+        <h2>Preço</h2>
+        
+        <table class="table table-dark table-striped">
+          <thead>
+           
+                <tr>
+                    <th>Nome</th>
+                    <th>Data lançamento</th>
+                    <th>Estilo</th>
+                    <th>Fabricante</th>
+                    <th>Plataformas</th>
+                    <th colspan="2">Preço</th>
                     
-              </div>
-              <button type="button" class="btn btn-primary btn-block">Enviar</button>
-      </form>
+                    
+                </tr>
+                <tr>
+                    <td rowspan="2">Street Fighter V</td>
+                    <td rowspan="2">16 de fevereiro de 2016</td>
+                    <td rowspan="2">Jogo eletrônico de luta</td>
+                    <td rowspan="2">Capcom</td>
+                    <td>PlayStation </td>
+                    <td rowspan="2">R$ 39,99</td>
+                    <td rowspan="2">R$ 170,99</td>
+                </tr>
+                <tr>
+                    <td>PC</td>
+                
+                </tr>
+                <tr>
+                    <td rowspan="2">Outlast 2</td>
+                    <td rowspan="2">4 de outubro de 2016</td>
+                    <td rowspan="2">Survival horror</td>
+                    <td rowspan="2">Red Barrels Studio</td>
+                    <td>PlayStation </td>
+                    <td rowspan="2">R$ 57,99</td>
+                    <td rowspan="2">R$ 110,00</td>
+                </tr>
+                <tr>
+                    <td>PC</td>
+                
+                </tr>
+                <tr>
+                    <td rowspan="2">The King of Fighters XIV</td>
+                    <td rowspan="2">23 de agosto de 2016</td>
+                    <td rowspan="2">Jogo eletrônico de luta</td>
+                    <td rowspan="2">SNK</td>
+                    <td>PlayStation </td>
+                    <td rowspan="2">R$ 90,99</td>
+                    <td rowspan="2">R$ 179,99</td>
+                </tr>
+                <tr>
+                    <td>PC</td>
+                </tr>
+                <tr>
+                    <td colspan="7">Valores consultados em 22/03/2020</td>
+                </tr>
+                </table>
+                <tfoot><th>Tabela 1: Comparativo Jogos</th></tfoot>   
+          </tbody>
+
+      </div>
       <footer class="container-fluid text-center ">
         <div class="row">
             <div class="col-sm-4">
@@ -122,5 +121,7 @@
         
         </div>
     </footer>
+      </body>
+      </html>
 
 </body>

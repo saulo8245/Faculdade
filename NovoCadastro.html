@@ -10,8 +10,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         
         <a class="navbar-brand" href="#">MJ</a>
@@ -40,68 +38,35 @@
           </li>
         </ul>
       </nav>
-      <h2>Cadastro</h2>
-      <form>
-        <div class="row">
-          <div class="col">
-            <label for="Nome" class="mr-sm-2">Nome:</label>
-            <input type="text" class="form-control" id="Nome" placeholder="Digite seu nome" name="Nome">
-          </div>
-          <div class="col">
-            <label for="Nome" class="mr-sm-2">Sobrenome:</label>
-            <input type="text" class="form-control" placeholder="Digite seu nome" name="Sobrenome">
-          </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col">
-              <label for="Data" class="mr-sm-2">Data nascimento:</label>
-              <input type="date" class="form-control" id="Data" placeholder="Digite da de nascimento" name="Data">
-            </div>
-            <div class="col">
-                <div class="col">
-                    <label for="Sexo" class="mr-sm-2">Sexo:</label>
-                    <input type="text" class="form-control" id="Sexo" placeholder="Digite Seu Sexo/Genero" name="Sexo">
-                  </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <label for="Telefone" class="mr-sm-2">Telefone:</label>
-              <input type="tel" class="form-control" id="Telefone" placeholder="(XX)XXXX-XXXX" name="Telefone">
-            </div>
-            <div class="col">
-                <div class="col">
-                    <label for="Email" class="mr-sm-2">Email:</label>
-                    <input type="text" class="form-control" id="Email" placeholder="Digite Seu Email" name="Email">
-                  </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <label for="Endereço" class="mr-sm-2">Endereço:</label>
-              <input type="text" class="form-control" id="Endereço" placeholder="" name="Endereço">
-            </div>
-          </div>
-            <div class="row">
-                <div class="col">
-                  <label for="Numero" class="mr-sm-2">Numero:</label>
-                  <input type="number" class="form-control" id="Numero" placeholder="" name="Numero">
-                </div>
-                <div class="col">
-                    <div class="col">
-                        <label for="Estado" class="mr-sm-2">Estado:</label>
-                        <input type="text" class="form-control" id="Estado" placeholder="" name="Estado">
-                    </div>
-                    </div>
-                    
-              </div>
-              <button type="button" class="btn btn-primary btn-block">Enviar</button>
-      </form>
-      <footer class="container-fluid text-center ">
+      <div id="meu_carrosel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+       <li data-target="#demo" data-slide-to="0" class="active"></li>
+       <li data-target="#demo" data-slide-to="1"></li>   
+       <li data-target="#demo" data-slide-to="2"></li>
+        </ul>		
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img class="d-block w-100" src="C:\Users\Saulo Barbosa\Desktop\Faculdade\TrabalhosHtml\Exercicio float\Exerciocio 2abc\Trabalho/Play.png" alt="Play">
+      </div>
+      <div class="carousel-item">
+          <img class="d-block w-100" src="C:\Users\Saulo Barbosa\Desktop\Faculdade\TrabalhosHtml\Exercicio float\Exerciocio 2abc\Trabalho/Xbox.jpg"  alt="Xbox">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="C:\Users\Saulo Barbosa\Desktop\Faculdade\TrabalhosHtml\Exercicio float\Exerciocio 2abc\Trabalho/SuperNi.jpg"  alt="Super Nitendo">
+    </div>
+    </div>	
+    
+    <a class="carousel-control-prev" href="#meu_carrosel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#meu_carrosel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <footer class="container-fluid text-center ">
         <div class="row">
             <div class="col-sm-4">
                 <a class="footer-link"href="C:\Users\Saulo Barbosa\Desktop\Faculdade\TrabalhosHtml\Exercicio float\Exerciocio 2abc\Trabalho/FaleConosco.html">Fale conosco</a>
