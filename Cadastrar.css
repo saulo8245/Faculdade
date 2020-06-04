@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    border-width: medium;
+    border-style: solid;
+    border-color: white
+    
+  
+}
+#nav{
+    height: 400px;
+    width: 20%;
+    background-color: darkgray;
+    float: left;
+    text-align: center;
+    border-width: medium;
+    border-style: solid;
+    border-color: white
+    
+}
+#article{
+    height: 400px;
+    width: 79%;
+    background-color: grey;
+    float: left;
+    
+    border-width: medium;
+    border-style: solid;
+    border-color: white
+    
+}
+
+
+#footer{
+    height: 110px;
+    width: 100%;
+    background-color: crimson;
+    
+    clear: both;
+    border-width: medium;
+    border-style: solid;
+    border-color: white
+    
+   
+}
+.table{
+margin: auto;
+margin-top: 5%;
+background-color: white;
+}
+.h2{
+    
+    margin-top: 6%;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(11, 19, 116)
+    
+}
+.h22{
+    float: left;
+    margin-left: 3%;
+}
+.h23{
+    float: left;
+    margin-left: 10%;
+}
+.h24{
+    margin-left: 15%;
+    float: left;
+}
+
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 700px;
+    /* Para ver as bordas do formulário */
+    padding: 4em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+
+}
+
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 100px;
+
+    text-align: right;
+}
